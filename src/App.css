@@ -32,7 +32,100 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.logo {
+  width: 2%;
+  height: 2%;
+  padding: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: grey;
+  align-items: center;
+}
+
+
+
+nav>ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  color: black;
+}
+
+nav>ul>li {
+  list-style: none;
+  font-size: large;
+  color: white;
+  cursor: pointer;
+}
+
+nav>ul>li:hover {
+  transform: 0.5s;
+  list-style: none;
+  font-size: larger;
+  color: black;
+  cursor: pointer;
+}
+
+.Hero{
+  background-color: wheat;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1{
+  margin: 0;
+}
+/* 
+.product-card {
+  transition: box-shadow .3s;
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-radius:10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  float: left;
+} */
+
+.product-card:hover{
+  box-shadow:0 0 11px rgba(33,33,33,.2);
+}
+
+.prod-img{
+  height: 80px;
+  width: auto;
+}
+
+.product{
+  list-style: none;
+  transition: box-shadow .3s;
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+  border-radius:10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  float: left;
+}
+
+.product:hover{
+  box-shadow:0 0 11px rgba(33,33,33,.2);
+}
+
+.products-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
