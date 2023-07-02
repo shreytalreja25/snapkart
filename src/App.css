@@ -41,9 +41,9 @@
 .logo {
   width: 2%;
   height: 2%;
-  padding: 15px;
+  padding: 12px;  
 }
-
+/* Gauarav added padding 15 px to 12px */
 nav {
   display: flex;
   justify-content: space-around;
